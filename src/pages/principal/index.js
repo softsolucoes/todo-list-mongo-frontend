@@ -60,7 +60,7 @@ function Principal(){
                 <h1>TodoList</h1>
             </div>
             <div className="digitNotes">
-                <input maxLength={200} value={newNote} onChange={e => setNewNote(e.target.value)} type='text' placeholder='Digite ToDo (Máximo de 200 caracteres)'></input>
+                <input maxLength={600} value={newNote} onChange={e => setNewNote(e.target.value)} type='text' placeholder='Digite ToDo (Máximo de 600 caracteres)'></input>
                 <button className="buttonInput" type='button' onClick={handleAdd}>Adc</button>
             </div>
             
